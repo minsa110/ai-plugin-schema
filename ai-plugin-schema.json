@@ -41,7 +41,7 @@
             "format": "uri"
         },
         "auth": {
-            "type": "object",
+            "type": "ManifestAuth",
             "properties": {
                 "type": {
                     "type": "string"
