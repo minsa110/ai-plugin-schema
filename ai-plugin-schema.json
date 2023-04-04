@@ -23,7 +23,7 @@
             "properties": {
                 "type": {
                     "type": "string",
-                    "enum": ["openai"]
+                    "enum": ["openapi"]
                 },
                 "url": {
                     "type": "string",
