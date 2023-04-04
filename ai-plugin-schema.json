@@ -29,10 +29,11 @@
                     "format": "uri"
                 },
                 "is_user_authenticated": {
-                    "type": "boolean"
+                    "type": "string"
                 }
             },
-            "required": ["type", "url", "is_user_authenticated"]
+            "required": ["type", "url", "is_user_authenticated"],
+            "additionalProperties": false
         },
         "logo_url": {
             "type": "string",
@@ -42,8 +43,7 @@
             "type": "object",
             "properties": {
                 "type": {
-                    "type": "string",
-                    "enum": ["none"]
+                    "type": "string"
                 }
             },
             "required": ["type"],
@@ -56,6 +56,10 @@
         "contact_email": {
             "type": "string",
             "format": "email"
+        },
+        "HttpAuthorizationType": {
+            "type": "HttpAuthorizationType",
+            "enum": ["bearer", "basic"]
         }
     },
     "required": [
