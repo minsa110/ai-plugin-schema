@@ -32,7 +32,7 @@
                     "type": "boolean"
                 }
             },
-            "required": ["url"],
+            "required": ["type", "url", "is_user_authenticated"],
             "additionalProperties": false
         },
         "logo_url": {
