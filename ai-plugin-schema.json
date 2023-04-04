@@ -21,9 +21,15 @@
         "api": {
             "type": "object",
             "properties": {
+                "type": {
+                    "type": "string"
+                },
                 "url": {
                     "type": "string",
                     "format": "uri"
+                },
+                "is_user_authenticated": {
+                    "type": "boolean"
                 }
             },
             "required": ["url"],
