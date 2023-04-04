@@ -21,6 +21,10 @@
         "api": {
             "type": "object",
             "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": ["openai"]
+                },
                 "url": {
                     "type": "string",
                     "format": "uri"
