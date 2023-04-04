@@ -32,8 +32,7 @@
                     "type": "boolean"
                 }
             },
-            "required": ["type", "url", "is_user_authenticated"],
-            "additionalProperties": false
+            "required": ["type", "url", "is_user_authenticated"]
         },
         "logo_url": {
             "type": "string",
