@@ -44,8 +44,10 @@
             "type": "object",
             "properties": {
                 "type": {
-                    "type": "string",
-                    "authorization_type": "string"
+                    "type": "string"
+                },
+                "authorization_type": {
+                    "type": "string"
                 }
             },
             "required": ["type"],
